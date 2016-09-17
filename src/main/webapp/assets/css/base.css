@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* @CSS Reset */
+/* Removes default margin */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{font:normal 12px/1.5 "微软雅黑",arial,sans-serif;background:#fff;color:#555;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;overflow-x:hidden; background: #f3f3f3;}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}
+table{border-collapse:collapse;border-spacing:0}
+th,td{font-weight:400}
+i,em{font-style:normal}
+strong{font-weight:700}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}
+a{color:#555;text-decoration:none;outline:none;}
+a:hover{color:#ff7a01;text-decoration:none}
+.clr,.clear{clear:both;height:0;overflow:hidden}
+.clrfix,.clearfix{zoom:1}
+.clrfix:after,.clearfix:after{clear:both;display:block;height:0;visibility:hidden;content:"."}
+.hide{display:none;}
+.hidden{visibility:hidden;}
+.pr{ position:relative;}
+img { display: block; border: 0 none;}
+.mdcolor{color: #f18d00;}
+/*-------end--------*/
+
+.sub-title{
+	height:35px;
+	font: normal 16px/25px "microsoft yahei";
+	color: #0088cc;
+}
+.sub-title span{
+	color: #f00;
+	margin: 0 5px;;
+}
+
+body{font-family: "microsoft yahei"!important;}
+.qPage_form{
+	padding:10px 0;
+}
+form.form-inline label{
+	padding: 5px 10px 0px 10px;
+}
+.input-medium-select{
+	width: 161px;
+	border-radius: 5px;
+}
+form.form-inline .btns{
+	padding: 20px 0 10px 0;
+	text-align: center;
+}
